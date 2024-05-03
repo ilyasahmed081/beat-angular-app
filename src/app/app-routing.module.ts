@@ -4,11 +4,11 @@ import { RouterModule, Routes } from '@angular/router';
 const routes: Routes = [
   {
     path: '',
-    loadChildren: () => import('./pages/hoempage/hoempage.module').then(m => m.HoempageModule)
+    loadChildren: () => import('./pages/homepage/homepage.module').then(m => m.HomepageModule)
   },
   {
     path: 'homepage',
-    loadChildren: () => import('./pages/hoempage/hoempage.module').then(m => m.HoempageModule)
+    loadChildren: () => import('./pages/homepage/homepage.module').then(m => m.HomepageModule)
   },
 ];
 
