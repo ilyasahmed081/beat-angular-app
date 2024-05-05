@@ -2,29 +2,30 @@
 
 .top-bar {
     border-bottom: 1px solid #ccc;
-    padding: 10px 0;
+    padding: 14px 0;
     .leftside {
         ul {
             display: flex;
             list-style: none;
+            padding-left: 0px;
             li {
                 position: relative;
                 &::before {
                     content: '';
                     position: absolute;
                     left: 0;
-                    top: -12px;
+                    top: -16px;
                     width: 1px;
-                    height: 48px;
+                    height: 57px;
                     background-color: #ccc;;
                 }
                 &::after {
                     content: '';
                     position: absolute;
                     right: 0;
-                    top: -12px;
+                    top: -16px;
                     width: 1px;
-                    height: 48px;
+                    height: 57px;
                     background-color: #ccc;;
                 }
                 padding: 0 20px;
@@ -52,18 +53,18 @@
                     content: '';
                     position: absolute;
                     left: 0;
-                    top: -10px;
+                    top: -14px;
                     width: 1px;
-                    height: 48px;
+                    height: 56px;
                     background-color: #ccc;;
                 }
                 &::after {
                     content: '';
                     position: absolute;
                     right: 0;
-                    top: -10px;
+                    top: -14px;
                     width: 1px;
-                    height: 48px;
+                    height: 56px;
                     background-color: #ccc;;
                 }
                 padding: 0 20px;
