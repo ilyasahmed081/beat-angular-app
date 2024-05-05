@@ -3,15 +3,16 @@ import { CommonModule } from '@angular/common';
 
 import { HomepageRoutingModule } from './homepage-routing.module';
 import { HomepageComponent } from './homepage.component';
-
+import { TopBarComponent } from 'src/app/layout/top-bar/top-bar.component';
 
 @NgModule({
   declarations: [
-    HomepageComponent
+    HomepageComponent,
+    TopBarComponent
   ],
   imports: [
     CommonModule,
-    HomepageRoutingModule
+    HomepageRoutingModule,
   ]
 })
 export class HomepageModule { }
