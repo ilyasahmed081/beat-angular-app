@@ -18,8 +18,8 @@ export class HomepageComponent {
       { name: 'Color Edition' }
     ]
   }
-  // product category cards
-  productCategory: any = [
+
+  productCard: any = [
     {
       id: 1,
       img: '../../../assets/img/headphone2.png',
@@ -43,7 +43,6 @@ export class HomepageComponent {
     },
   ];
 
-  // best products
   bestProducts: any = [
     {
       id: 1,
@@ -101,5 +100,32 @@ export class HomepageComponent {
       info: 'There are many variations of passages of Lorem Ipsum, but the suffered',
       price: '$110.00',
     }
+  ];
+  
+  blogCard: any = [
+    {
+      id: 1,
+      img: 'https://rb.gy/fgt72l',
+      title: 'Contrary to popular belief, Lorem Ipsum is not simply random',
+      date: 'Dec 20-12-2024',
+      category: 'Blog Technology',
+      info: 'There are many variations of passages of Lorem available, but the majority have suffered alteration in some form, by injected of passages Lorem available, but the majority have suffered alteration in some form, by injected of passages'
+    },
+    {
+      id: 2,
+      img: 'https://rb.gy/9pcc46',
+      title: 'Contrary to popular belief, Lorem Ipsum is not simply random',
+      date: 'Dec 20-12-2024',
+      category: 'Blog Technology',
+      info: 'There are many variations of passages of Lorem available, but the majority have suffered alteration in some form, by injected of passages Lorem available, but the majority have suffered alteration in some form, by injected of passages'
+    },
+    {
+      id: 3,
+      img: 'https://rb.gy/yn6tq2',
+      title: 'Contrary to popular belief, Lorem Ipsum is not simply random',
+      date: 'Dec 20-12-2024',
+      category: 'Blog Technology',
+      info: 'There are many variations of passages of Lorem available, but the majority have suffered alteration in some form, by injected of passages Lorem available, but the majority have suffered alteration in some form, by injected of passages'
+    },
   ];
 }

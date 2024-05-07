@@ -10,6 +10,8 @@ import { CarouselComponent } from 'src/app/components/carousel/carousel.componen
 import { ProductCardComponent } from 'src/app/components/product-card/product-card.component';
 import { CategoryCardComponent } from 'src/app/components/category-card/category-card.component';
 import { InfoCardComponent } from 'src/app/components/info-card/info-card.component';
+import { VerticalCardComponent } from 'src/app/components/vertical-card/vertical-card.component';
+import { BlogCardComponent } from 'src/app/components/blog-card/blog-card.component';
 
 @NgModule({
   declarations: [
@@ -17,7 +19,9 @@ import { InfoCardComponent } from 'src/app/components/info-card/info-card.compon
     CarouselComponent,
     ProductCardComponent,
     CategoryCardComponent,
-    InfoCardComponent
+    InfoCardComponent,
+    VerticalCardComponent,
+    BlogCardComponent
   ],
   imports: [
     CommonModule,

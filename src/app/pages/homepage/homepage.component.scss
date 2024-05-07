@@ -13,14 +13,14 @@
         }
         h4 {
             text-transform: uppercase;
-            font-size: 28px;
+            font-size: 30px;
             font-weight: 700;
-            padding-bottom: 1rem;
+            padding-bottom: 2.5rem;
             &::after {
                 content: "";
                 position: absolute;
                 right: 33rem;
-                top: 75px;
+                top: 80px;
                 width: 100px;
                 height: 0px;
                 border-bottom: 1px solid $silver;
@@ -29,5 +29,33 @@
     }
     .view-btn {
         margin-top: 3rem;
+    }
+}
+.blog-card {
+    padding: 6rem 0;
+    .headings {
+        text-align: center;
+        p {
+            position: relative;
+            text-transform: uppercase;
+            font-size: 15px;
+            font-weight: 700;
+            color: $silver;
+        }
+        h4 {
+            text-transform: uppercase;
+            font-size: 30px;
+            font-weight: 700;
+            padding-bottom: 2.5rem;
+            &::after {
+                content: "";
+                position: absolute;
+                right: 33rem;
+                top: 80px;
+                width: 100px;
+                height: 0px;
+                border-bottom: 1px solid $silver;
+            }
+        }
     }
 }
