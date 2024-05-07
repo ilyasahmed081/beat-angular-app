@@ -1,6 +1,36 @@
-<!-- <app-carousel></app-carousel> -->
-<app-product-card></app-product-card>
-<app-category-card></app-category-card>
+<div class="homepage">
+    <!-- <app-carousel></app-carousel> -->
+    <div class="product-category-cards">
+        <div class="row">
+            <div class="col-12 col-md-3 col-lg-3 pr-0">
+                <app-category-card [category]="category"></app-category-card>
+            </div>
+            <div class="col-12 col-md-3 col-lg-3 pl-0 pr-0" *ngFor="let item of productCategory">
+                <app-product-card [product]="item"></app-product-card>
+            </div>
+        </div>
+    </div>
+    <div class="information-card d-flex">
+        <app-info-card></app-info-card>
+        <app-info-card></app-info-card>
+    </div>
+    <div class="best-products">
+        <div class="container">
+            <div class="row">
+                <div class="col-12 headings ">
+                    <p>Popular Products</p>
+                    <h4>Only Best Products</h4>
+                </div>
+                <div class="col-12 col-md-3 col-lg-3 pl-0 pr-0 mt-5" *ngFor="let item of bestProducts">
+                    <app-product-card [product]="item"></app-product-card>
+                </div>
+            </div>
+            <div class="view-btn d-flex justify-content-center">
+                <a class="c-btn btn-green">View all accessopries</a>
+            </div>
+        </div>
+    </div>
+</div>
 
 <!-- <a class="c-btn btn-green">Learn More</a>
 <a class="c-btn btn-white">View all categories</a>
