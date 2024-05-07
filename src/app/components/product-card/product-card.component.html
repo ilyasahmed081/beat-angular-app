@@ -1,51 +1,13 @@
-<section>
-    <div class="product-card">
-        <div class="row">
-            <div class="col-12 col-md-4 col-lg-4 pl-0 pr-0">
-                <div class="p-card border-top-0 border-bottom-0">
-                    <img src="../../../assets/img/headphone2.png">
-                    <h4>Fatex Product Headphone</h4>
-                    <div class="rating">
-                        <i class="fa-solid fa-star"></i>
-                        <i class="fa-solid fa-star"></i>
-                        <i class="fa-solid fa-star"></i>
-                        <i class="fa-regular fa-star"></i>
-                        <i class="fa-regular fa-star"></i>
-                    </div>
-                    <p class="info">There are many variations of passages of Lorem Ipsum, but the majority have suffered</p>
-                    <p class="price">$110.00</p>
-                </div>
-            </div>
-            <div class="col-12 col-md-4 col-lg-4 pl-0 pr-0">
-                <div class="p-card">
-                    <img src="../../../assets/img/headphone2.png">
-                    <h4>Fatex Product Headphone</h4>
-                    <div class="rating">
-                        <i class="fa-regular fa-star checked"></i>
-                        <i class="fa-regular fa-star checked"></i>
-                        <i class="fa-regular fa-star"></i>
-                        <i class="fa-regular fa-star"></i>
-                        <i class="fa-regular fa-star"></i>
-                    </div>
-                    <p class="info">There are many variations of passages of Lorem Ipsum, but the majority have suffered</p>
-                    <p class="price">$110.00</p>
-                </div>
-            </div>
-            <div class="col-12 col-md-4 col-lg-4 pl-0 pr-0">
-                <div class="p-card">
-                    <img src="../../../assets/img/headphone2.png">
-                    <h4>Fatex Product Headphone</h4>
-                    <div class="rating">
-                        <i class="fa-regular fa-star checked"></i>
-                        <i class="fa-regular fa-star checked"></i>
-                        <i class="fa-regular fa-star"></i>
-                        <i class="fa-regular fa-star"></i>
-                        <i class="fa-regular fa-star"></i>
-                    </div>
-                    <p class="info">There are many variations of passages of Lorem Ipsum, but the majority have suffered</p>
-                    <p class="price">$110.00</p>
-                </div>
-            </div>
-        </div>
+<div class="p-card border-top-0 border-bottom-0">
+    <img [src]="product.img">
+    <h4>{{product.title}}</h4>
+    <div class="rating">
+        <i class="fa-solid fa-star"></i>
+        <i class="fa-solid fa-star"></i>
+        <i class="fa-solid fa-star"></i>
+        <i class="fa-regular fa-star"></i>
+        <i class="fa-regular fa-star"></i>
     </div>
-</section>
+    <p class="info">{{product.info}}</p>
+    <p class="price">{{product.price}}</p>
+</div>
