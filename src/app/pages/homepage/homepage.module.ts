@@ -12,6 +12,7 @@ import { CategoryCardComponent } from 'src/app/components/category-card/category
 import { InfoCardComponent } from 'src/app/components/info-card/info-card.component';
 import { VerticalCardComponent } from 'src/app/components/vertical-card/vertical-card.component';
 import { BlogCardComponent } from 'src/app/components/blog-card/blog-card.component';
+import { DiscountCardComponent } from 'src/app/components/discount-card/discount-card.component';
 
 @NgModule({
   declarations: [
@@ -21,7 +22,8 @@ import { BlogCardComponent } from 'src/app/components/blog-card/blog-card.compon
     CategoryCardComponent,
     InfoCardComponent,
     VerticalCardComponent,
-    BlogCardComponent
+    BlogCardComponent,
+    DiscountCardComponent
   ],
   imports: [
     CommonModule,
