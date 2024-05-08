@@ -33,9 +33,15 @@
     <div class="hotsale-card">
         <div class="container">
             <div class="row">
-                <div class="col-12 col-md-3 col-lg-3 pl-0 pr-0 my-4">
-                    <app-vertical-card></app-vertical-card>
-                    <!-- <app-product-card [product]="item"></app-product-card> -->
+                <div class="col-3" *ngFor="let item of saleCategory">
+                    <div class="row">
+                        <div class="col-12 pl-0">
+                            <h4>{{item.title}}</h4>
+                        </div>
+                        <div class="col-12 mt-4 pl-0" *ngFor="let p of item.products">
+                            <app-vertical-card [verticalCard]="p"></app-vertical-card>
+                        </div>
+                    </div>
                 </div>
             </div>
         </div>

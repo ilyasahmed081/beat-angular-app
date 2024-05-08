@@ -1,7 +1,7 @@
 @import '/src/styles.scss';
 
 .best-products {
-    padding: 6rem 0;
+    padding: 3rem 0;
     .headings {
         text-align: center;
         p {
@@ -31,8 +31,28 @@
         margin-top: 3rem;
     }
 }
+.hotsale-card {
+    padding: 3rem 0;
+    h4 {
+        font-size: 21px;
+        font-weight: 700;
+        text-transform: uppercase;
+        color: $black;
+        padding-bottom: 2.5rem;
+        position: relative;
+        &::after {
+            content: "";
+            position: absolute;
+            left: 0rem;
+            top: 43px;
+            width: 45px;
+            height: 0px;
+            border-bottom: 1px solid $silver;
+        }
+    }
+}
 .blog-card {
-    padding: 6rem 0;
+    padding: 3rem 0;
     .headings {
         text-align: center;
         p {
